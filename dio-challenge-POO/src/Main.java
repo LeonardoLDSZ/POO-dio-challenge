@@ -1,3 +1,4 @@
+import br.com.dio.challenge.domain.Content;
 import br.com.dio.challenge.domain.Course;
 import br.com.dio.challenge.domain.Mentoring;
 
@@ -16,6 +17,9 @@ public class Main {
         course2.setTitle("JS Course");
         course2.setDescription("JS Course Description");
         course2.setWorkload(4);
+
+        Content content = new Course();
+        Content content1 = new Mentoring();
 
         Mentoring mentoring = new Mentoring();
         mentoring.setTitle("Java mentoring");
